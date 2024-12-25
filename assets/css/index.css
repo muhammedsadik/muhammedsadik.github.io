@@ -12,6 +12,17 @@ a {
   text-decoration: none;
 }
 
+h2 {
+  text-align: center;
+}
+
+.homework {
+  margin: 15px;
+  padding: 5px;
+  border: 1px solid burlywood;
+  border-radius: 10px;
+}
+
 .homeworks {
   text-align: center;
   font-size: 90px;  
