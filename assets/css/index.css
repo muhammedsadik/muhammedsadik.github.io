@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+a {
+  text-decoration: none;
+}
+
+.homeworks {
+  text-align: center;
+  font-size: 90px;  
+}
+
+.container {
+  display: flex;
+  gap: 1%;
+}
+
+.javascript {
+  display: flex;
+  gap: 1%;
+}
+
+.newjs{
+  background-color: #355070;
+}
+
+.oldjs{
+  background-color: #6d597a;
+}
+
+.html-css{
+  display: flex;
+  gap: 1%;
+}
+
+.newhtmlcss{
+  background-color: #b56576;
+}
+
+.oldhtmlcss {
+  background-color: #e56b6f;
+}
