@@ -10,7 +10,9 @@ body {
 
 a {
   text-decoration: none;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+}
 }
 
 h2 {
@@ -26,7 +28,7 @@ h2 {
 
 .homeworks {
   text-align: center;
-  font-size: 90px;  
+  font-size: 90px;
 }
 
 .container {
@@ -39,20 +41,20 @@ h2 {
   gap: 1%;
 }
 
-.newjs{
+.newjs {
   background-color: #355070;
 }
 
-.oldjs{
+.oldjs {
   background-color: #6d597a;
 }
 
-.html-css{
+.html-css {
   display: flex;
   gap: 1%;
 }
 
-.newhtmlcss{
+.newhtmlcss {
   background-color: #b56576;
 }
 
