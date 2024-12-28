@@ -10,7 +10,9 @@ body {
   background-repeat: no-repeat;
 }
 
-h1 {
+.header {
+  text-align: center;
+  font-size: 90px;
   color: rgb(148, 24, 100);
 }
 
@@ -22,6 +24,7 @@ a {
 }
 
 h2 {
+  width: 300px;
   display: inline-block;
   white-space: nowrap;
   text-align: center;
@@ -33,11 +36,13 @@ h2 {
   padding: 5px;
   border: 1px solid burlywood;
   border-radius: 10px;
+  transition: all 0.2s ease;
 }
 
-.homeworks {
-  text-align: center;
-  font-size: 90px;
+.homework:hover{
+  background-color: #0a3161;
+  font-weight: bold;
+  border: 1px solid darkgoldenrod;
 }
 
 .container {
@@ -47,7 +52,7 @@ h2 {
 
 .javascript {
   display: flex;
-  gap: 15%;
+  gap: 5%;
 }
 
 .newjs {
@@ -60,7 +65,7 @@ h2 {
 
 .html-css {
   display: flex;
-  gap: 15%;
+  gap: 5%;
 }
 
 .newhtmlcss {
