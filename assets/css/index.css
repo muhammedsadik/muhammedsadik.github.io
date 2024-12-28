@@ -5,17 +5,27 @@
 }
 
 body {
-  background-color: aliceblue;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #e56b6f, #355070);
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: rgb(148, 24, 100);
 }
 
 a {
+  color: antiquewhite;
   text-decoration: none;
   display: flex;
   justify-content: center;
 }
 
 h2 {
+  display: inline-block;
+  white-space: nowrap;
   text-align: center;
+  border-bottom: 1px solid rgb(190, 0, 0);
 }
 
 .homework {
@@ -32,31 +42,31 @@ h2 {
 
 .container {
   display: flex;
-  gap: 1%;
+  justify-content: space-around;
 }
 
 .javascript {
   display: flex;
-  gap: 1%;
+  gap: 15%;
 }
 
 .newjs {
-  background-color: #355070;
+  /* background-color: #355070; */
 }
 
 .oldjs {
-  background-color: #6d597a;
+  /* background-color: #6d597a; */
 }
 
 .html-css {
   display: flex;
-  gap: 1%;
+  gap: 15%;
 }
 
 .newhtmlcss {
-  background-color: #b56576;
+  /* background-color: #b56576; */
 }
 
 .oldhtmlcss {
-  background-color: #e56b6f;
+  /* background-color: #e56b6f; */
 }
