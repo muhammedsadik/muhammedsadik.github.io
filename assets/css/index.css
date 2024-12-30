@@ -55,23 +55,7 @@ h2 {
   gap: 5%;
 }
 
-.newjs {
-  /* background-color: #355070; */
-}
-
-.oldjs {
-  /* background-color: #6d597a; */
-}
-
 .html-css {
   display: flex;
   gap: 5%;
-}
-
-.newhtmlcss {
-  /* background-color: #b56576; */
-}
-
-.oldhtmlcss {
-  /* background-color: #e56b6f; */
 }
