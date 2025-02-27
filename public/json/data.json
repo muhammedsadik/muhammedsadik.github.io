@@ -1,0 +1,9 @@
+{
+  "homeworks":[
+    {
+      "projectName" : "Tabs",
+      "github" : "https://github.com/muhammedsadik/tabs",
+      "vercel" : "https://tabs-kappa-ten.vercel.app/"
+    }
+  ]
+}
